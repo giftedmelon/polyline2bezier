@@ -11,7 +11,7 @@ function drawPath(segments) {
       if (index_ === 0) {
         return;
       }
-      d.push(point.x + ',' + point.y);
+      d.push(point.x + ',' + point.y); 
     });
   });
   if (segments.length > 0) {
