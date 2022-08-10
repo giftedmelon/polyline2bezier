@@ -1,0 +1,24 @@
+{
+  "name": "polyline2bezier",
+  "version": "1.0.0",
+  "description": "Polyline to Bezier Curve",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giftedmelon/polyline2bezier.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giftedmelon/polyline2bezier/issues"
+  },
+  "homepage": "https://github.com/giftedmelon/polyline2bezier#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "request": "^2.88.2"
+  }
+}
