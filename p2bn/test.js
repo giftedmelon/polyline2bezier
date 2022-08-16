@@ -24,7 +24,7 @@ function drawPath(segments) {
   //console.log('d="' + d + '"');
 }
 
-const path_to_svg = 'p2bn/c.png.svg';
+const path_to_svg = 'p2bn/h.png.svg';
 
 let $;
 let pathStringsArray= [];
