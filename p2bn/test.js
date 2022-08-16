@@ -24,7 +24,7 @@ function drawPath(segments) {
   //console.log('d="' + d + '"');
 }
 
-const path_to_svg = 'p2bn/h.png.svg';
+const path_to_svg = 'p2bn/a.png.svg';
 
 let $;
 let pathStringsArray= [];
@@ -60,7 +60,7 @@ svg += '\t<g id="kvg:StrokePaths_00065" style="fill:none;stroke:#000000;stroke-w
 console.log("Len: " + pathStringsArray.length);
 
 for (let x = 0; x < pathStringsArray.length; x++) {
-  svg += '\t<path id="kvg:00065-s1"'
+  svg += '\t<path id="kvg:00065-s1" '
   svg += pathStringsArray[x]
   svg += '/>\n'
 }
